@@ -17,12 +17,6 @@ import MenuItem from '@mui/material/MenuItem';
 
 const ResponsiveBar = () => {
 
-  // const pages = [
-  //   'Movies',
-  //   'CreateMovie',
-  //   'EditMovie'          
-  // ];
-  
   
   const pages = [
     {
