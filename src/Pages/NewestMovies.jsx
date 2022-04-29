@@ -8,7 +8,7 @@ const NewestMovies = () => {
     const [data, setData] = React.useState([]);
 
     React.useEffect(() => {
-        fetch("http://localhost:3010/latest-movies")
+        fetch("https://movies-emjvp.herokuapp.com/latest-movies")
         .then((response) => response.json())
         .then((latestmovies) => {
             setData(latestmovies.data);            
